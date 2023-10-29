@@ -11,8 +11,9 @@ function App() {
   return (
     <>
       <BrowserRouter>
-     
+      <AppContext>
         <Header/>
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/category/:id" element={<Category />} />
@@ -20,7 +21,7 @@ function App() {
         </Routes>
         <Newsletter />
         <Footer />
-       
+        </AppContext>
       </BrowserRouter>
     </>
   );
