@@ -1,6 +1,13 @@
-# E-Commerce Web Application
+# kartStore E-Commerce WebApp
 
 Welcome to our E-Commerce Web Application, a modern online shopping platform built with React, backed by a Strapi API, and featuring Stripe payment integration. This README provides a comprehensive overview of the project, its features, and how to get started.
+
+## Deployed Application
+
+The E-Commerce Web Application is deployed and accessible online. You can visit it at the following URL:
+
+[kartStore](https://kartstoree.netlify.app/)
+
 
 ## Table of Contents
 
@@ -16,11 +23,20 @@ Welcome to our E-Commerce Web Application, a modern online shopping platform bui
 
 ![Screenshot (120)](https://github.com/Bandinikhil/ecommerce_webApp/assets/105233916/1239e73d-b75f-42c5-b6ba-08faea0bbba3)
 
+<br> 
+<br> 
+
 ![Screenshot (121)](https://github.com/Bandinikhil/ecommerce_webApp/assets/105233916/8d11b2d8-8aea-4f51-8759-54ca06640b81)
+<br> <br> 
 
 ![Screenshot (122)](https://github.com/Bandinikhil/ecommerce_webApp/assets/105233916/b3051871-5c64-47b6-a1e8-59c16d6b7f19)
+<br> 
+<br> 
 
 ![Screenshot (123)](https://github.com/Bandinikhil/ecommerce_webApp/assets/105233916/c19a5b84-a4cf-400e-8591-d6463ebb6c1a)
+
+<br> 
+<br> 
 
 
 
