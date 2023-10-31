@@ -1,6 +1,6 @@
 # kartStore E-Commerce WebApp
 
-Welcome to our E-Commerce Web Application, a modern online shopping platform built with React, backed by a Strapi API, and featuring Stripe payment integration. This README provides a comprehensive overview of the project, its features, and how to get started.
+Welcome to our E-Commerce Web Application, a modern online shopping platform built with React, backend by a Strapi API, and featuring Stripe payment integration. This README provides a comprehensive overview of the project, its features, and how to get started.
 
 ## Deployed Application
 
