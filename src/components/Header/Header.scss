@@ -99,6 +99,7 @@ border-color: rgba(0,0,0,0.1);
         top:0;
         transform: translateY(-60px);
         animation: StickyHeader 0.3s ease forwards;
+        background-color: white;
     }
 
     @keyframes StickyHeader {

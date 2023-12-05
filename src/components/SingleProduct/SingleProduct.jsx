@@ -27,6 +27,7 @@ const SingleProduct = () => {
     if(!data) return;
 
     const product = data?.data?.[0]?.attributes;
+    console.log(product);
 
 console.log(product?.categories?.data[0]?.id);
 
@@ -37,8 +38,8 @@ console.log(product?.categories?.data[0]?.id);
                 <div className="single-product-page">
                     <div className="left">
                         <img src={ 
-                             process.env.REACT_APP_STRIPE_APP_DEV_URL +
-                             product?.img?.data[0]?.attributes?.url
+                            
+                             product?.img?.data?.attributes?.url
                         } 
                         alt="product" />
                     </div>
@@ -88,8 +89,6 @@ console.log(product?.categories?.data[0]?.id);
                 productId= {id}
                 categoryId={product?.categories?.data[0]?.id}
                 />
-
-
             </div>
         </div>
         </>

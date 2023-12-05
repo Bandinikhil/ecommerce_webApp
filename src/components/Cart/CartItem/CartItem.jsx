@@ -6,7 +6,7 @@ import "./CartItem.scss";
 const CartItem = () => {
     const { cartItems, handleRemoveFromCart, handleCartProductQuantity } =
         useContext(Context);
-
+console.log(cartItems)
     return (
         <div className="cart-products">
             {cartItems?.map((item) => (
@@ -18,8 +18,8 @@ const CartItem = () => {
                     <div className="image-container">
                         <img
                             src={
-                                process.env.REACT_APP_STRIPE_APP_DEV_URL +
-                                item?.attributes?.img?.data[0]?.attributes?.url
+                                
+                                item?.attributes?.img?.data?.attributes?.url
                             }
                             alt="img"
                         />
